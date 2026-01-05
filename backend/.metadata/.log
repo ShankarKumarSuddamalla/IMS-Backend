@@ -115,3 +115,747 @@ java.io.IOException: Process timed-out and it was attempted to forcefully termin
 
 !ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:20:47.298
 !MESSAGE 23:20:47.297 [pool-3-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2026-01-05 23:22:33.888
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:38.918
+!MESSAGE 23:22:10.647 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:39.576
+!MESSAGE 23:22:39.052 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:39.577
+!MESSAGE 23:22:39.076 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:39.652
+!MESSAGE 23:22:39.652 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:40.105
+!MESSAGE 23:22:39.745 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java done in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:40.106
+!MESSAGE 23:22:39.745 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:40.362
+!MESSAGE 23:22:40.113 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:40.560
+!MESSAGE 23:22:40.559 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 7
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:40.582
+!MESSAGE 23:22:40.581 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:40.795
+!MESSAGE 23:22:40.793 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:40.829
+!MESSAGE 23:22:40.821 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:40.830
+!MESSAGE 23:22:40.826 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:40.831
+!MESSAGE 23:22:40.827 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.076
+!MESSAGE 23:22:40.905 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 8
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.110
+!MESSAGE 23:22:41.078 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.143
+!MESSAGE p(LocalCache.java:3467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.144
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.postWriteCleanup(LocalCache.java:3443)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.145
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.remove(LocalCache.java:3077)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.146
+!MESSAGE 	at com.google.common.cache.LocalCache.remove(LocalCache.java:4251)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.146
+!MESSAGE 	at com.google.common.cache.LocalCache$LocalManualCache.invalidate(LocalCache.java:4891)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.147
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.invalidateCuForJavaFile(CompilationUnitCache.java:383)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.147
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.lambda$new$0(CompilationUnitCache.java:130)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.148
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ListenerList.fire(ListenerList.java:29)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.148
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.SimpleTextDocumentService.didChange(SimpleTextDocumentService.java:210)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.148
+!MESSAGE 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.149
+!MESSAGE 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.149
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.149
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.150
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.150
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.150
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ParentProcessWatcher.lambda$apply$0(ParentProcessWatcher.java:129)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.151
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.151
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.151
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.152
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.152
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.152
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.153
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.153
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.153
+!MESSAGE Caused by: java.util.concurrent.CancellationException: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.153
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2552)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:41.154
+!MESSAGE 	... 26 common frames omitted
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:43.167
+!MESSAGE 23:22:41.751 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:43.175
+!MESSAGE 23:22:43.175 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:43.864
+!MESSAGE 23:22:43.556 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java done in 4ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:44.080
+!MESSAGE 23:22:43.868 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:44.411
+!MESSAGE 23:22:44.400 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:44.415
+!MESSAGE 23:22:44.414 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:44.734
+!MESSAGE 23:22:44.417 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:45.413
+!MESSAGE 23:22:44.864 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:45.419
+!MESSAGE 23:22:45.414 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:45.532
+!MESSAGE 23:22:45.422 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.436
+!MESSAGE 23:22:46.045 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.437
+!MESSAGE p(LocalCache.java:3467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.438
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.postWriteCleanup(LocalCache.java:3443)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.439
+!MESSAGE 	at com.google.common.cache.LocalCache$Segment.remove(LocalCache.java:3077)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.440
+!MESSAGE 	at com.google.common.cache.LocalCache.remove(LocalCache.java:4251)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.441
+!MESSAGE 	at com.google.common.cache.LocalCache$LocalManualCache.invalidate(LocalCache.java:4891)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.442
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.invalidateCuForJavaFile(CompilationUnitCache.java:383)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.443
+!MESSAGE 	at org.springframework.ide.vscode.boot.java.utils.CompilationUnitCache.lambda$new$0(CompilationUnitCache.java:130)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.444
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ListenerList.fire(ListenerList.java:29)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.444
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.SimpleTextDocumentService.didChange(SimpleTextDocumentService.java:210)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.445
+!MESSAGE 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.446
+!MESSAGE 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.446
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.447
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.447
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.449
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.449
+!MESSAGE 	at org.springframework.ide.vscode.commons.languageserver.util.ParentProcessWatcher.lambda$apply$0(ParentProcessWatcher.java:129)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.449
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.450
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.451
+!MESSAGE 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.451
+!MESSAGE 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.452
+!MESSAGE 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.453
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.453
+!MESSAGE 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.455
+!MESSAGE 	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.455
+!MESSAGE Caused by: java.util.concurrent.CancellationException: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.456
+!MESSAGE 	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2552)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.456
+!MESSAGE 	... 26 common frames omitted
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.460
+!MESSAGE 23:22:46.459 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.955
+!MESSAGE 23:22:46.618 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 23
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:46.956
+!MESSAGE 23:22:46.951 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:48.617
+!MESSAGE 23:22:48.611 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:54.136
+!MESSAGE 23:22:54.135 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:54.138
+!MESSAGE 23:22:54.137 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:54.140
+!MESSAGE 23:22:54.138 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:54.141
+!MESSAGE 23:22:54.140 [pool-3-thread-4] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - hover computation done in 7ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:56.720
+!MESSAGE 23:22:56.719 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:56.746
+!MESSAGE 23:22:56.745 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:56.762
+!MESSAGE 23:22:56.756 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:22:58.686
+!MESSAGE 23:22:57.102 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:00.167
+!MESSAGE 23:22:59.056 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:23:00.452
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:23:00.453
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:23:00.455
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:23:00.456
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:00.531
+!MESSAGE 23:23:00.529 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///F:/IMS/backend/discovery-server/target/classes/application.properties, file:///F:/IMS/backend/discovery-server/target/classes/com/tcs/discoveryserver/DiscoveryServerApplication.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:01.153
+!MESSAGE 23:23:01.147 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:01.154
+!MESSAGE 23:23:01.147 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:17.596
+!MESSAGE 23:23:17.592 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:19.409
+!MESSAGE 23:23:19.408 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:19.413
+!MESSAGE 23:23:19.413 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:19.953
+!MESSAGE 23:23:19.953 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:20.328
+!MESSAGE 23:23:20.327 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:21.082
+!MESSAGE 23:23:21.081 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Parsed successfully CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:21.414
+!MESSAGE 23:23:21.086 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:23:22.672
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:23:22.676
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:23:22.685
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:23:22.686
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:23.244
+!MESSAGE 23:23:23.243 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.jface 2 0 2026-01-05 23:23:26.626
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-01-05 23:23:26.626
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:27.146
+!MESSAGE 23:23:23.324 [pool-5-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:27.147
+!MESSAGE 23:23:23.324 [pool-3-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:28.695
+!MESSAGE 23:23:27.286 [Reconciler-1] INFO  o.s.i.v.b.m.SpringPropertiesIndexManager - Indexed 1328 properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:29.452
+!MESSAGE 23:23:28.761 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:29.510
+!MESSAGE 23:23:29.504 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:29.512
+!MESSAGE 23:23:29.504 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:29.512
+!MESSAGE 23:23:29.505 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:29.811
+!MESSAGE 23:23:29.810 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: spring.aop.auto
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:31.221
+!MESSAGE 23:23:31.220 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 6
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:31.223
+!MESSAGE 23:23:31.220 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:31.426
+!MESSAGE 23:23:31.425 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 7
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:31.584
+!MESSAGE 23:23:31.435 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:31.586
+!MESSAGE 23:23:31.557 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:32.216
+!MESSAGE 23:23:31.948 [pool-3-thread-4] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request terminated.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:32.368
+!MESSAGE 23:23:32.367 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: server.address
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:32.546
+!MESSAGE 23:23:32.545 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 12
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:32.547
+!MESSAGE 23:23:32.545 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:32.567
+!MESSAGE 23:23:32.566 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:32.675
+!MESSAGE 23:23:32.674 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: server.address
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:33.417
+!MESSAGE 23:23:32.788 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:33.447
+!MESSAGE 23:23:33.446 [pool-3-thread-5] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:33.745
+!MESSAGE 23:23:33.745 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 15
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:33.746
+!MESSAGE 23:23:33.745 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-01-05 23:23:34.410
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:35.188
+!MESSAGE 23:23:34.087 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:36.636
+!MESSAGE 23:23:36.619 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:37.000
+!MESSAGE 23:23:36.997 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:38.841
+!MESSAGE 23:23:38.689 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:52.053
+!MESSAGE 23:23:52.052 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: encrypt.fail-on-error
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:52.277
+!MESSAGE 23:23:52.161 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:52.344
+!MESSAGE 23:23:52.333 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:52.566
+!MESSAGE 23:23:52.548 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 28
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:52.671
+!MESSAGE 23:23:52.670 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:52.817
+!MESSAGE 23:23:52.816 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:53.022
+!MESSAGE 23:23:52.927 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:53.313
+!MESSAGE 23:23:53.312 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:53.313
+!MESSAGE 23:23:53.312 [pool-3-thread-4] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:54.315
+!MESSAGE 23:23:54.315 [pool-3-thread-5] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:54.880
+!MESSAGE 23:23:54.411 [pool-3-thread-5] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:54.882
+!MESSAGE 23:23:54.730 [pool-3-thread-5] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:54.901
+!MESSAGE 23:23:54.897 [pool-3-thread-5] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:55.124
+!MESSAGE 23:23:54.999 [pool-3-thread-5] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request terminated.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:55.371
+!MESSAGE 23:23:55.281 [pool-3-thread-5] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Got 72 completions in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:56.896
+!MESSAGE 23:23:55.585 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:23:57.772
+!MESSAGE 23:23:57.769 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:00.700
+!MESSAGE 23:23:57.871 [pool-3-thread-4] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request terminated.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:00.932
+!MESSAGE 23:24:00.930 [pool-3-thread-5] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:04.663
+!MESSAGE 23:24:01.029 [pool-3-thread-5] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request terminated.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:05.058
+!MESSAGE 23:24:04.676 [pool-3-thread-5] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:05.352
+!MESSAGE 23:24:05.247 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:05.414
+!MESSAGE 23:24:05.413 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:05.639
+!MESSAGE 23:24:05.496 [pool-3-thread-5] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request terminated.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:05.657
+!MESSAGE 23:24:05.654 [pool-3-thread-5] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:05.658
+!MESSAGE 23:24:05.654 [pool-3-thread-5] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:18.289
+!MESSAGE 23:24:05.739 [pool-3-thread-5] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request terminated.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:18.290
+!MESSAGE 23:24:07.334 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:18.527
+!MESSAGE 23:24:18.431 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: encrypt.fail-on-error
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:18.691
+!MESSAGE 23:24:18.629 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:19.015
+!MESSAGE 23:24:18.790 [pool-3-thread-4] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request terminated.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:19.017
+!MESSAGE 23:24:19.014 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:19.160
+!MESSAGE 23:24:19.070 [pool-3-thread-4] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Got 186 completions in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:19.340
+!MESSAGE 23:24:19.339 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.prefer-same-zone-eureka
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:19.341
+!MESSAGE 23:24:19.339 [pool-3-thread-4] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting eureka.client.prefer-same-zone-eureka
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:19.506
+!MESSAGE 23:24:19.505 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:19.605
+!MESSAGE 23:24:19.605 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:19.607
+!MESSAGE 23:24:19.606 [pool-3-thread-4] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request terminated.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:20.443
+!MESSAGE 23:24:20.223 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:20.443
+!MESSAGE 23:24:20.345 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Got 96 completions in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:20.604
+!MESSAGE 23:24:20.601 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:20.828
+!MESSAGE 23:24:20.827 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:20.918
+!MESSAGE 23:24:20.917 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:20.969
+!MESSAGE 23:24:20.969 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:21.064
+!MESSAGE 23:24:21.063 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:21.174
+!MESSAGE 23:24:21.165 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:21.272
+!MESSAGE 23:24:21.272 [pool-3-thread-3] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting eureka.client.allow-redirects
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:22.209
+!MESSAGE 23:24:22.208 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.g-zip-content
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:22.210
+!MESSAGE 23:24:22.208 [pool-3-thread-3] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting eureka.client.g-zip-content
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:22.310
+!MESSAGE 23:24:22.309 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:22.419
+!MESSAGE 23:24:22.418 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.refresh.enable
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:22.561
+!MESSAGE 23:24:22.561 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:22.709
+!MESSAGE 23:24:22.659 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.refresh.enable
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:22.709
+!MESSAGE 23:24:22.697 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:22.810
+!MESSAGE 23:24:22.809 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.region
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:23.051
+!MESSAGE 23:24:23.014 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:23.051
+!MESSAGE 23:24:23.049 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:23.421
+!MESSAGE 23:24:23.145 [pool-3-thread-3] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting eureka.client.region
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:23.537
+!MESSAGE 23:24:23.515 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.register-with-eureka
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:23.538
+!MESSAGE 23:24:23.515 [pool-3-thread-3] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting eureka.client.register-with-eureka
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:23.554
+!MESSAGE 23:24:23.554 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:23.774
+!MESSAGE 23:24:23.635 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.register-with-eureka
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:23.866
+!MESSAGE 23:24:23.864 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.register-with-eureka
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:24.880
+!MESSAGE 23:24:24.879 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:25.266
+!MESSAGE 23:24:24.897 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:25.585
+!MESSAGE 23:24:25.355 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 75
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:25.795
+!MESSAGE 23:24:25.686 [pool-3-thread-3] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting eureka.client.refresh.enable
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:25.796
+!MESSAGE 23:24:25.701 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:25.797
+!MESSAGE 23:24:25.701 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:25.939
+!MESSAGE 23:24:25.938 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:26.034
+!MESSAGE 23:24:26.034 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.g-zip-content
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:27.147
+!MESSAGE 23:24:26.528 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:27.244
+!MESSAGE 23:24:27.243 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.fetch-registry
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:28.799
+!MESSAGE 23:24:27.890 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: eureka.client.fetch-registry
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:28.799
+!MESSAGE 23:24:28.798 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:29.172
+!MESSAGE 23:24:28.889 [pool-3-thread-3] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting false
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:29.190
+!MESSAGE 23:24:29.189 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:29.682
+!MESSAGE 23:24:29.269 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: false
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:29.682
+!MESSAGE 23:24:29.269 [pool-3-thread-3] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request starting false
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:29.683
+!MESSAGE 23:24:29.352 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:29.684
+!MESSAGE 23:24:29.352 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:29.684
+!MESSAGE 23:24:29.680 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 88
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:29.685
+!MESSAGE 23:24:29.680 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:29.686
+!MESSAGE 23:24:29.681 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:29.702
+!MESSAGE 23:24:29.701 [pool-3-thread-3] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:31.091
+!MESSAGE 23:24:31.090 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Completion item resolve request received: false
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:41.880
+!MESSAGE 23:24:41.877 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 91
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:41.881
+!MESSAGE 23:24:41.878 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:41.882
+!MESSAGE 23:24:41.878 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:46.815
+!MESSAGE 23:24:45.052 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:54.455
+!MESSAGE 23:24:54.454 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 98
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:54.456
+!MESSAGE 23:24:54.454 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///F:/IMS/backend/discovery-server/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:24:54.457
+!MESSAGE 23:24:54.454 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:25:06.933
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:25:06.935
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:25:06.936
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-05 23:25:06.938
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:25:08.743
+!MESSAGE 23:25:06.973 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///F:/IMS/backend/discovery-server/target/classes/application.properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:25:12.939
+!MESSAGE 23:25:12.921 [pool-5-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-05 23:25:12.939
+!MESSAGE 23:25:12.938 [pool-3-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///F:/IMS/backend/discovery-server/src/main/java/com/tcs/discoveryserver/DiscoveryServerApplication.java
