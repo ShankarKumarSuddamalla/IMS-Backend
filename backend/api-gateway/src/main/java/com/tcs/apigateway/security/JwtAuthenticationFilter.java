@@ -109,16 +109,43 @@ public class JwtAuthenticationFilter implements GlobalFilter, Ordered {
             exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
             return exchange.getResponse().setComplete();
         }
+     // CUSTOMER – place order
+        if (path.equals("/order-service/orders")
+                && method == HttpMethod.POST
+                && !"CUSTOMER".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+
+        // CUSTOMER – view own orders
+        if (path.equals("/order-service/orders/my")
+                && method == HttpMethod.GET
+                && !"CUSTOMER".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+
+        // ADMIN – view all orders
+        if (path.equals("/order-service/orders")
+                && method == HttpMethod.GET
+                && !"ADMIN".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+
 
 
         /* ================= FORWARD USER INFO ================= */
 
-        exchange.getRequest().mutate()
-                .header("X-USER-EMAIL", email)
-                .header("X-USER-ROLE", role)
+        ServerWebExchange mutatedExchange = exchange.mutate()
+                .request(exchange.getRequest().mutate()
+                        .header("X-USER-EMAIL", email)
+                        .header("X-USER-ROLE", role)
+                        .build())
                 .build();
 
-        return chain.filter(exchange);
+        return chain.filter(mutatedExchange);
+
     }
 
     private boolean isAnyRole(String role, String... roles) {

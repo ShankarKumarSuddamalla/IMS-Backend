@@ -71,6 +71,17 @@ public class InventoryService {
         );
         repository.save(inventory);
     }
+    public void reduceStock(Long productId,Integer quantity) {
+    	Inventory inventory=repository.findByProductId(productId);
+    	if(inventory==null) {
+    		throw new RuntimeException("Inventory not found for product "+productId);
+    	}
+    	if(inventory.getAvailableQuantity()<quantity){
+    		throw new RuntimeException("Insufficient stock for product "+productId);
+    	}
+    	inventory.setAvailableQuantity(inventory.getAvailableQuantity()-quantity);
+    	repository.save(inventory);
+    }
 
 
     private InventoryResponse map(Inventory i) {

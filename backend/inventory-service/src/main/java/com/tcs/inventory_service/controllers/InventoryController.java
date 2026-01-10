@@ -52,6 +52,10 @@ public class InventoryController {
     public void addStock(@RequestBody StockUpdateRequest request) {
         service.addStock(request.getProductId(), request.getQuantity());
     }
+    @PostMapping("/reduce")
+    public void reduceStock(@RequestBody StockUpdateRequest request) {
+    	service.reduceStock(request.getProductId(),request.getQuantity());
+    }
 
 }
 
