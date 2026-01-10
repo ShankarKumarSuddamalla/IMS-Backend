@@ -54,7 +54,11 @@ public class JwtAuthenticationFilter implements GlobalFilter, Ordered {
         /* ================= USER SERVICE ================= */
 
         // ADMIN ONLY → view all users
-        if (path.equals("/user-service/users") && !"ADMIN".equals(role)) {
+        if (path.equals("/user-service/users/customers") && !"ADMIN".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+        if (path.equals("/user-service/users/suppliers") && !"ADMIN".equals(role)) {
             exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
             return exchange.getResponse().setComplete();
         }
@@ -104,11 +108,6 @@ public class JwtAuthenticationFilter implements GlobalFilter, Ordered {
             return exchange.getResponse().setComplete();
         }
 
-        // SUPPLIER – add stock
-        if (path.equals("/inventory-service/inventory/add") && !"SUPPLIER".equals(role)) {
-            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
-            return exchange.getResponse().setComplete();
-        }
      // CUSTOMER – place order
         if (path.equals("/order-service/orders")
                 && method == HttpMethod.POST
@@ -132,6 +131,27 @@ public class JwtAuthenticationFilter implements GlobalFilter, Ordered {
             exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
             return exchange.getResponse().setComplete();
         }
+     // SUPPLIER – supply stock
+        if (path.equals("/supplier-service/suppliers/supply")
+                && !"SUPPLIER".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+
+        // SUPPLIER – view own supplies
+        if (path.equals("/supplier-service/suppliers/supplies")
+                && !"SUPPLIER".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+
+        // ADMIN – view all supplies
+        if (path.equals("/supplier-service/suppliers/all-supplies")
+                && !"ADMIN".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+
 
 
 

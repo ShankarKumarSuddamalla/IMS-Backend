@@ -44,4 +44,5 @@ public class UserProfileService {
     public List<UserProfile> viewAllUsers(){
     	return repository.findAll();
     }
+   
 }
