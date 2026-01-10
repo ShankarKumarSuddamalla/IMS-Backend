@@ -5,6 +5,7 @@ import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
@@ -21,9 +22,12 @@ public class JwtAuthenticationFilter implements GlobalFilter, Ordered {
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
 
         String path = exchange.getRequest().getURI().getPath();
-        System.out.println("Path: "+path);
+        HttpMethod method = exchange.getRequest().getMethod();
+
+        System.out.println("Path: " + path + " | Method: " + method);
+
         // 🔓 PUBLIC ENDPOINTS
-        if (path.startsWith("/auth")) {
+        if (path.startsWith("/auth-service/auth")) {
             return chain.filter(exchange);
         }
 
@@ -47,21 +51,81 @@ public class JwtAuthenticationFilter implements GlobalFilter, Ordered {
         String role = jwtUtil.getRole(token);
         String email = jwtUtil.getEmail(token);
 
-        // 🔐 ADMIN-ONLY: VIEW ALL USERS
-        if (path.equals("/user-service/users")) {
+        /* ================= USER SERVICE ================= */
+
+        // ADMIN ONLY → view all users
+        if (path.equals("/user-service/users") && !"ADMIN".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+
+        /* ================= PRODUCT SERVICE ================= */
+
+        // READ products → ADMIN, CUSTOMER, SUPPLIER
+        if (path.startsWith("/product-service/products") && method == HttpMethod.GET) {
+            if (!isAnyRole(role, "ADMIN", "CUSTOMER", "SUPPLIER")) {
+                exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+                return exchange.getResponse().setComplete();
+            }
+        }
+
+        // WRITE products → ADMIN ONLY
+        if (path.startsWith("/product-service/products")
+                && (method == HttpMethod.POST
+                || method == HttpMethod.PUT
+                || method == HttpMethod.DELETE)) {
+
             if (!"ADMIN".equals(role)) {
                 exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
                 return exchange.getResponse().setComplete();
             }
         }
 
-        // ✅ Forward user info to downstream services (optional but useful)
+        /* ================= CATEGORY SERVICE ================= */
+
+        // VIEW categories → ALL ROLES
+        if (path.startsWith("/product-service/categories") && method == HttpMethod.GET) {
+            if (!isAnyRole(role, "ADMIN", "CUSTOMER", "SUPPLIER")) {
+                exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+                return exchange.getResponse().setComplete();
+            }
+        }
+
+        // ADD category → ADMIN ONLY
+        if (path.startsWith("/product-service/categories") && method == HttpMethod.POST) {
+            if (!"ADMIN".equals(role)) {
+                exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+                return exchange.getResponse().setComplete();
+            }
+        }
+     // ADMIN – update stock
+        if (path.equals("/inventory-service/inventory/update") && !"ADMIN".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+
+        // SUPPLIER – add stock
+        if (path.equals("/inventory-service/inventory/add") && !"SUPPLIER".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+
+
+        /* ================= FORWARD USER INFO ================= */
+
         exchange.getRequest().mutate()
                 .header("X-USER-EMAIL", email)
                 .header("X-USER-ROLE", role)
                 .build();
 
         return chain.filter(exchange);
+    }
+
+    private boolean isAnyRole(String role, String... roles) {
+        for (String r : roles) {
+            if (r.equals(role)) return true;
+        }
+        return false;
     }
 
     @Override
