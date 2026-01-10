@@ -62,6 +62,20 @@ public class JwtAuthenticationFilter implements GlobalFilter, Ordered {
             exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
             return exchange.getResponse().setComplete();
         }
+     // allow internal calls
+        if (path.startsWith("/user-service/internal")) {
+            return chain.filter(exchange);
+        }
+
+        // admin only
+        if (path.startsWith("/user-service/users")
+                && !"ADMIN".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+        if (path.startsWith("/user-service/internal")) {
+            return chain.filter(exchange);
+        }
 
         /* ================= PRODUCT SERVICE ================= */
 
@@ -151,6 +165,12 @@ public class JwtAuthenticationFilter implements GlobalFilter, Ordered {
             exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
             return exchange.getResponse().setComplete();
         }
+        if (path.startsWith("/report-service")
+                && !"ADMIN".equals(role)) {
+            exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
+            return exchange.getResponse().setComplete();
+        }
+
 
 
 

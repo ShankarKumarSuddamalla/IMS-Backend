@@ -4,6 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.tcs.authservice.client.UserServiceClient;
+import com.tcs.authservice.dtos.UserProfileRequest;
 import com.tcs.authservice.entities.Role;
 import com.tcs.authservice.entities.User;
 import com.tcs.authservice.repositories.RoleRepository;
@@ -18,8 +20,16 @@ public class AuthService {
 
     @Autowired
     private RoleRepository roleRepository;
-
     @Autowired
+    private final UserServiceClient userServiceClient;
+    
+
+    public AuthService(UserServiceClient userServiceClient) {
+		super();
+		this.userServiceClient = userServiceClient;
+	}
+
+	@Autowired
     private JwtUtil jwtUtil;
 
     @Autowired
@@ -52,9 +62,11 @@ public class AuthService {
             }
         }
 
+        // 🔎 Fetch role
         Role role = roleRepository.findByName(roleName)
                 .orElseThrow(() -> new RuntimeException("Role not found"));
 
+        // 👤 Create user in auth_db
         User user = new User();
         user.setName(name);
         user.setEmail(email);
@@ -62,7 +74,16 @@ public class AuthService {
         user.setRole(role);
 
         userRepository.save(user);
+
+        // 🔥 AUTO CREATE USER PROFILE IN USER-SERVICE
+        UserProfileRequest profileRequest = new UserProfileRequest();
+        profileRequest.setName(user.getName());
+        profileRequest.setEmail(user.getEmail());
+        profileRequest.setRole(role.getName());
+
+        userServiceClient.createUserProfile(profileRequest);
     }
+
 
 }
 

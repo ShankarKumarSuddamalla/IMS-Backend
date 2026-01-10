@@ -1,7 +1,8 @@
 package com.tcs.userservice.repositories;
 
+
+
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -9,8 +10,9 @@ import com.tcs.userservice.entities.UserProfile;
 
 public interface UserProfileRepository extends JpaRepository<UserProfile, Long> {
 
-    Optional<UserProfile> findByEmail(String email);
+    List<UserProfile> findByRole(String role);
 
-    Optional<UserProfile> findByAuthUserId(Long authUserId);
+    boolean existsByEmail(String email);
 }
+
 
